@@ -1,0 +1,58 @@
+body, html {
+    background-color: rgb(245, 232, 212);
+    background-image: rgb(245, 232, 212);
+}
+
+.h1 {
+    color: rgb(214, 166, 166);
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+.h4 {
+    color: #470b77;
+    font-family: 'Redressed', cursive;
+    font-variant: small-caps;
+    text-align: center; 
+    font-size: 20px;
+}
+
+
+
+.topnav-centered {
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: rgb(245, 232, 212);
+    text-align: center;
+    font-size: 27px;
+    border: 1px solid rgb(245, 232, 212);
+    width: 100%;
+    background-color: rgb(245, 232, 212);
+}
+
+.topnav-centered a,
+.topnav-centered a:visited{
+    color: blue;
+    margin: 15px;
+}
+.container {
+    color: gray;
+    background-color: rgb(212, 193, 208);
+    padding: 2px;
+    margin: 3%;
+    height: auto;
+    width: auto;
+    border: 20px solid rgb(200, 170, 240);
+    overflow: hidden;
+}
+
+img {
+    float: left;
+    width: 200px; height: auto;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    object-fit: contain;
+}
+
+
