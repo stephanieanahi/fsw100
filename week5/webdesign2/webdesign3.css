@@ -1,0 +1,49 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+   padding: 10px;
+   
+  }
+
+  .header{
+    grid-column: 1 / 6;
+    background-color: #F5C6D6;
+    padding: 5rem;
+    border-radius: 25px;
+  }
+
+  .nav1{
+    grid-column: 2/ 6;
+    background-color: #cc5a80;
+    padding: 5rem;
+    border-radius: 25px;
+  }
+
+
+  .nav2 {
+    background-color: #c26f94;
+  grid-column: 1 /2/ 3/4;
+  grid-row: 2/6;
+  padding: 7em;
+  border-radius: 25px;
+}
+
+
+
+
+
+.main {
+    background-color: #d49adb;
+    padding: 4em;
+    grid-column:4/6;
+    border-radius: 25px;
+}
+
+.footer {
+    background-color: #d49adb;
+    padding: 4em;
+    grid-column:2/4;
+    border-radius: 25px;
+    grid-row: 3/6;
+}
