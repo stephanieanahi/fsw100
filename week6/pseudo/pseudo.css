@@ -1,3 +1,40 @@
-div:hover{
-    background-color: aquamarine;
+div {
+    width:100px;
+    border:2px solid black;
+    height:100px;
+    padding: 10px;
+}
+
+.container1:hover {
+  background-color: aqua;
+  float: right;
+ 
+}
+.container2:hover:hover {
+    border: 2px solid salmon;
+    width: 150px;
+}
+
+
+.container3:hover{
+
+  height: 150px;
+  border-radius: 30%;
+}
+
+.container4:hover{
+    background-image: url(https://media.istockphoto.com/photos/sky-cloud-pink-love-sweet-love-color-tone-for-wedding-card-background-picture-id1180184210?b=1&k=20&m=1180184210&s=170667a&w=0&h=VbjitLKrB72EUtTfxE2ZoSi9IUINHijByKRYZsPw_hc=);
+   text-align: center ;
+}
+
+.container5:hover {
+    border: 20px solid saddlebrown;
+   margin: 40px;
+
+}
+
+.container6:hover{
+    padding-right:  70px;
+   border-top-right-radius: 30px;
+   
 }
