@@ -1,0 +1,118 @@
+header{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Playball', cursive;
+    
+}
+
+
+.image-container{
+    height: 300pxpx; 
+    max-width:300px; 
+    margin-left:auto;
+    margin-right:auto;   
+
+}
+
+.image-container img{
+    width: 100%;
+    position: relative;
+    
+}
+html {
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+  }
+
+
+.menu {
+    display: flex;
+    gap: 5rem;
+    font-size: 18px;
+    padding-left: 40px;
+   
+}
+   .menu li {
+    padding: 5px 14px;
+    padding-right: 130px;
+   }
+   
+
+   a {
+       color: black;
+       text-align: center;
+       background-color: rgb(150, 90, 90);
+       border: 3px solid#0c0c0c;
+       padding: 1px;
+       font-family: 'Lobster', cursive;
+       font-family: 'Playball', cursive;
+       padding-left: 50px;
+       padding-right: 50px;
+       border-radius: 40%;
+       font-size: 25px;
+   }
+   footer {
+       text-align: center;
+       padding-top: 30px;
+   }
+   p {
+       text-align: center;
+       font-size: 25px;
+   }
+   span {
+       float: left;
+       padding-left: 350px;
+       font-size: 25px;
+   }
+   p {
+    font-family: 'Lobster', cursive;
+    font-family: 'Playball', cursive; 
+    padding-right: 90px;
+   }
+   
+
+#heart{
+    font-size: 25px;
+}
+#heart:hover{
+    color:red;
+    
+}
+
+#heart{
+    font-size: 25px;
+    padding-left: 350px;
+}
+#heart:hover{
+    color:red;
+}
+
+textarea {
+    text-align: center;
+    background-color: rgb(201, 200, 199);
+    padding-right: 90px;
+    color: rgb(141, 135, 135);
+}
+img {
+    border-radius: 10%;
+    padding-left: 20px;
+}
+span {
+    font-family: 'Lobster', cursive;
+    font-family: 'Playball', cursive; 
+
+}
+img:hover {
+    width: 400px;
+}
+
+
+@media only screen and (max-width:768px)
+{
+
+    .image-container{
+        display: grid;
+        grid-template-rows: auto;
+    }
+}
